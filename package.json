@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-crowdin",
+  "version": "1.0.0",
+  "main": "lib/module.js",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Luc Potage"
+    }
+  ],
+  "scripts": {
+    "dev": "nuxt example"
+  },
+  "devDependencies": {
+    "nuxt": "^2.14.12",
+    "nuxt-i18n": "^6.16.0"
+  },
+  "dependencies": {
+    "@crowdin/crowdin-api-client": "^1.10.1"
+  }
+}
